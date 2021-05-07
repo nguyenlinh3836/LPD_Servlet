@@ -1,3 +1,5 @@
+<div class="header--sidebar"></div>
+<!--  Header-->
 <header class="header" data-sticky="true">
     <div class="header__top">
         <div class="ps-container">
@@ -5,19 +7,35 @@
                 <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12 ">
                     <p>460 West 34th Street, 15th floor, New York  -  Hotline: 804-377-3580 - 804-399-3580</p><i class="furniture-market"></i>
                 </div>
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12 ">
+                    <div class="header__actions"><a href="#">Login & Regiser</a>
+                        <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="images/flag/usa.svg" alt=""> USD</a></li>
+                                <li><a href="#"><img src="images/flag/singapore.svg" alt=""> SGD</a></li>
+                                <li><a href="#"><img src="images/flag/japan.svg" alt=""> JPN</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group ps-dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">English <img src="images/flag/usa.svg" alt=""></a></li>
+                                <li><a href="#">Japanese <img src="images/flag/japan.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <nav class="navigation">
-        <div class="ps-container"><a class="ps-logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
+        <div class="ps-container">
+            <a class="ps-logo" href="index-2.html"><img src="images/logo.png" alt=""></a>
             <ul class="main-menu menu">
-                <li class="current-menu-item "><a href="#">Home</a>
-                </li>
-                <li><a href="/product.jsp">Products</a> </li>
+                <li class="current-menu-item "><a>Home</a></li>
+                <li><a href="#">Products</a></li>
                 <li><a href="#">Manager</a></li>
                 <li><a href="contact-us.html">Contact</a></li>
             </ul>
-
             <div class="menu-toggle"><span></span></div>
             <div class="ps-cart"><a class="ps-cart__toggle" href="#"><span><i>20</i></span><img src="images/market.svg" alt=""></a>
                 <div class="ps-cart__listing">
