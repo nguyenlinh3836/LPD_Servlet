@@ -25,7 +25,7 @@ public class HomeServlet extends HttpServlet {
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 
-    private List<ProductEntity> getAllProduct() {
+    List<ProductEntity> getAllProduct() {
         ProductDao dao = new ProductDao();
         return dao.getAll();
     }
