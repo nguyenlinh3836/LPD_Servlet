@@ -10,6 +10,7 @@
                 <option value="1">4</option>
                 <option value="2">5</option>
             </select>
+
             <p>Dressed in soft velvet, extra deep and wonderfully spacious. Also, lots of loose cushions that give comfort and support, for however you prefer to sit or lie down. A sofa to long for and enjoy for years.</p>
             <h4><del> $300 </del> $155</h4>
             <div class="ps-product__actions"><a class="ps-btn" href="cart.html">Add to cart</a><a href="product-detail.html">More info</a></div>

@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/eshoplpd</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="eshopLPD@localhost" uuid="d98366df-458c-44cc-a214-48986cfcb0df">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/eshopLPD</jdbc-url>
+    </data-source>
   </component>
 </project>

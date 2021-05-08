@@ -1,3 +1,11 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>Title</title>
+
+</head>
+<body>
 <div class="container">
     <div class="table-wrapper">
         <div class="table-title">
@@ -22,17 +30,18 @@
             </tr>
             </thead>
             <tbody>
+             <c:forEach var="p" items="${requestScope.products}">
             <tr>
-                <td>Thomas Hardy</td>
-                <td>thomashardy@mail.com</td>
-                <td>89 Chiaroscuro Rd, Portland, USA</td>
-                <td>(171) 555-2222</td>
+                <td>${p.id}</td>
+                <td>${p.name}</td>
+                <td>${p.image}</td>
+                <td>${p.price}</td>
                 <td>
                     <a href="#editEmployeeModal" class="edit btn btn-default" data-toggle="modal">Edit</a>
                     <a href="#deleteEmployeeModal" class="delete btn btn-danger" data-toggle="modal">Delete</a>
                 </td>
             </tr>
-
+             </c:forEach>
             </tbody>
         </table>
         <div class="clearfix">
@@ -165,4 +174,7 @@
         });
     });
 </script>
+</body>
+</html>
+
 
